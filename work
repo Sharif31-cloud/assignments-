@@ -1,0 +1,53 @@
+rint(15)
+print("hlo world")
+
+
+age_of_student = 15
+student_name = "sema"
+
+def details():
+    print(f"the students name and age are {student_name},{age_of_student}")
+
+
+
+details()
+
+
+#my_friends = ['sharif','ema','xean']
+#print(my_friends[2])
+
+size=5
+i=0
+
+for i in range(5):
+    print(34)
+
+
+
+list_of_friends   = ['sharif','ema','xean','daudi']
+def friends():
+  
+    print(f"my friends are {list_of_friends}")
+   
+    print(f"my best friend is {list_of_friends[0]}")
+    
+    print(f"my least important friends are {list_of_friends[1]} and {list_of_friends[3]}")
+list_of_friends.extend(['ada','aba','james'])
+list_of_friends.pop(0)
+print(f"my friends are {list_of_friends}")
+friends()
+
+
+list_of_domestic_animals = ['cow','sheep','goat']
+list_of_wild_animals = ['lion','tiger','leopard']
+
+def animals():
+    print(f"this is a list of wild animals ,{list_of_wild_animals}")
+    print(f"this is a list of domestic animals ,{list_of_domestic_animals}")
+    merged_list = list_of_domestic_animals + list_of_wild_animals
+    print(merged_list)
+    list_of_wild_animals.extend(['giraffe','buffallow'])
+    print(f"this is a list of wild animals ,{list_of_wild_animals}")
+
+
+animals()
