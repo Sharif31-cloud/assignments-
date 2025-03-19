@@ -1,1 +1,17 @@
+friends_stack = []
+#adding elements to a stack
+friends_stack.append("john")
+friends_stack.append("alex")
+friends_stack.append("sharif")
+friends_stack.append("shafiq")
 
+#printing of the elements
+print(friends_stack)
+
+#removing elements to a stack
+friends_stack.pop()
+print(friends_stack)
+
+#peeking for a top 
+friends_stack[-1]
+print(friends_stack[-1])
